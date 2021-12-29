@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: "Roboto";
+}
+.navbar {
+position: fixed;
+z-index: 1;
+width: 100%;
+}
+
+/*Columnas*/
+h2
+{
+    color:white;
+    font-weight: 700;
+}
+
+.columnas-texto
+{
+    font-size: 21px;
+    color: white;
+}
+
+.fa-plane {
+    font-size: 20px;
+}
+
+.fa-mountain {
+    font-size: 20px;
+}
+
+.fa-route {
+    font-size: 20px;
+}
+
+/*Cards*/
+
+h5 {
+    color: white;
+}
+
+.card-text {
+    font-size: 21px;
+    color: white;
+}
+
+/*Formulario*/
+
+label {
+    color: white;
+    font-size: 21px;
+}
