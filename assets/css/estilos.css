@@ -16,6 +16,9 @@ h2
     font-weight: 700;
 }
 
+.columna-banner {
+    background-color: #06cdee;
+}
 .columnas-texto
 {
     font-size: 21px;
@@ -24,6 +27,7 @@ h2
 
 .fa-plane {
     font-size: 20px;
+    color: white;
 }
 
 .fa-mountain {
@@ -45,9 +49,14 @@ h5 {
     color: white;
 }
 
+.card-body {
+    background-color: #06cdee;
+}
+
 /*Formulario*/
 
 label {
     color: white;
     font-size: 21px;
 }
+
