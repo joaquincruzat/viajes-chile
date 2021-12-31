@@ -64,3 +64,15 @@ label {
     font-size: 21px;
 }
 
+/*Footer*/
+
+footer {
+    background-color: #06cdee;
+    font-family: "Roboto";
+    height: 5rem;
+}
+
+.iconos-footer {
+    font-size: 25px;
+    color: white;
+}
