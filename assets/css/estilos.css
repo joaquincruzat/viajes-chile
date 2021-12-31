@@ -9,8 +9,9 @@ body {
 }
 .navbar {
 position: fixed;
-z-index: 1;
 width: 100%;
+z-index: 100;
+background-color: transparent;
 }
 
 /*Columnas*/
@@ -22,6 +23,7 @@ h2
 
 .columna-banner {
     background-color: #06cdee;
+    color: white;
 }
 .columnas-texto
 {
@@ -36,10 +38,26 @@ h2
 
 .fa-mountain {
     font-size: 20px;
+    color: white;
 }
 
 .fa-route {
     font-size: 20px;
+    color: white;
+}
+
+.tooltip-inner {
+    background-color: white;
+    color: black;
+    font-family: "Roboto";
+}
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+    border-width: 5px 5px 0;
+    border-top-color: white;
+}
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {
+    border-width: 0 5px 5px;
+    border-bottom-color:white;
 }
 
 /*Cards*/
